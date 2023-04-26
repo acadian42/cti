@@ -1,0 +1,62 @@
+[
+    {
+        "name": "OPENCTI_URL",
+        "value": "http://localhost"
+    },
+    {
+        "name": "OPENCTI_TOKEN",
+        "value": "ChangeMe"
+    },
+    {
+        "name": "CONNECTOR_ID",
+        "value": "ChangeMe"
+    },
+    {
+        "name": "CONNECTOR_TYPE",
+        "value": "INTERNAL_ENRICHMENT"
+    },
+    {
+        "name": "CONNECTOR_NAME",
+        "value": "GreyNoise"
+    },
+    {
+        "name": "CONNECTOR_SCOPE",
+        "value": "IPv4-Addr"
+    },
+    {
+        "name": "CONNECTOR_AUTO",
+        "value": "true"
+    },
+    {
+        "name": "CONNECTOR_CONFIDENCE_LEVEL",
+        "value": "80"
+    },
+    {
+        "name": "CONNECTOR_LOG_LEVEL",
+        "value": "info"
+    },
+    {
+        "name": "GREYNOISE_KEY",
+        "value": "ChangeMe"
+    },
+    {
+        "name": "GREYNOISE_MAX_TLP",
+        "value": "TLP:AMBER"
+    },
+    {
+        "name": "GREYNOISE_NAME",
+        "value": "GreyNoise sensors"
+    },
+    {
+        "name": "GREYNOISE_DESCRIPTION",
+        "value": "GreyNoise collects and analyzes untargeted, widespread, and opportunistic scan and attack activity that reaches every server directly connected to the Internet."
+    },
+    {
+        "name": "GREYNOISE_SIGHTING_NOT_SEEN",
+        "value": "false"
+    },
+    {
+        "name": "GREYNOISE_SPOOFABLE_CONFIDENCE_LEVEL",
+        "value": "30"
+    }
+]
