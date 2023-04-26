@@ -1,0 +1,115 @@
+[
+    {
+        "name": "OPENCTI_URL",
+        "value": "http://localhost"
+    },
+    {
+        "name": "OPENCTI_TOKEN",
+        "value": "ChangeMe"
+    },
+    {
+        "name": "CONNECTOR_ID",
+        "value": "ChangeMe"
+    },
+    {
+        "name": "CONNECTOR_TYPE",
+        "value": "INTERNAL_ENRICHMENT"
+    },
+    {
+        "name": "CONNECTOR_NAME",
+        "value": "VirusTotal"
+    },
+    {
+        "name": "CONNECTOR_SCOPE",
+        "value": "StixFile,Artifact,IPv4-Addr,Domain-Name,Url"
+    },
+    {
+        "name": "CONNECTOR_AUTO",
+        "value": "true"
+    },
+    {
+        "name": "CONNECTOR_CONFIDENCE_LEVEL",
+        "value": "50"
+    },
+    {
+        "name": "CONNECTOR_LOG_LEVEL",
+        "value": "info"
+    },
+    {
+        "name": "VIRUSTOTAL_TOKEN",
+        "value": "ChangeMe"
+    },
+    {
+        "name": "VIRUSTOTAL_MAX_TLP",
+        "value": "TLP:AMBER"
+    },
+    {
+        "name": "VIRUSTOTAL_REPLACE_WITH_LOWER_SCORE",
+        "value": "false"
+    },
+    {
+        "name": "VIRUSTOTAL_FILE_CREATE_NOTE_FULL_REPORT",
+        "value": "true"
+    },
+    {
+        "name": "VIRUSTOTAL_FILE_UPLOAD_UNSEEN_ARTIFACTS",
+        "value": "false"
+    },
+    {
+        "name": "VIRUSTOTAL_FILE_INDICATOR_CREATE_POSITIVES",
+        "value": "10"
+    },
+    {
+        "name": "VIRUSTOTAL_FILE_INDICATOR_VALID_MINUTES",
+        "value": "2880"
+    },
+    {
+        "name": "VIRUSTOTAL_FILE_INDICATOR_DETECT",
+        "value": "true"
+    },
+    {
+        "name": "VIRUSTOTAL_IP_INDICATOR_CREATE_POSITIVES",
+        "value": "10"
+    },
+    {
+        "name": "VIRUSTOTAL_IP_INDICATOR_VALID_MINUTES",
+        "value": "2880"
+    },
+    {
+        "name": "VIRUSTOTAL_IP_INDICATOR_DETECT",
+        "value": "true"
+    },
+    {
+        "name": "VIRUSTOTAL_IP_ADD_RELATIONSHIPS",
+        "value": "true"
+    },
+    {
+        "name": "VIRUSTOTAL_DOMAIN_INDICATOR_CREATE_POSITIVES",
+        "value": "10"
+    },
+    {
+        "name": "VIRUSTOTAL_DOMAIN_INDICATOR_VALID_MINUTES",
+        "value": "2880"
+    },
+    {
+        "name": "VIRUSTOTAL_DOMAIN_INDICATOR_DETECT",
+        "value": "true"
+    },
+    {
+        "name": "VIRUSTOTAL_DOMAIN_ADD_RELATIONSHIPS",
+        "value": "true"
+    },
+    {
+        "name": "VIRUSTOTAL_URL_UPLOAD_UNSEEN",
+        "value": "false"
+    },
+    {
+        "name": "VIRUSTOTAL_URL_INDICATOR_CREATE_POSITIVES",
+        "value": "10"
+    },
+    {
+        "name": "VIRUSTOTAL_URL_INDICATOR_VALID_MINUTES",
+        "value": "2880"
+    },
+    {
+        "name": "VIRUSTOTAL_URL_INDICATOR_DETECT
