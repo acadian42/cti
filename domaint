@@ -1,0 +1,46 @@
+[
+  {
+    "name": "OPENCTI_URL",
+    "value": "http://localhost"
+  },
+  {
+    "name": "OPENCTI_TOKEN",
+    "value": "ChangeMe"
+  },
+  {
+    "name": "CONNECTOR_ID",
+    "value": "ChangeMe"
+  },
+  {
+    "name": "CONNECTOR_TYPE",
+    "value": "INTERNAL_ENRICHMENT"
+  },
+  {
+    "name": "CONNECTOR_NAME",
+    "value": "DomainTools"
+  },
+  {
+    "name": "CONNECTOR_SCOPE",
+    "value": "Domain-Name,Ipv4-Addr"
+  },
+  {
+    "name": "CONNECTOR_AUTO",
+    "value": "false # Enable/disable auto-enrichment of observables"
+  },
+  {
+    "name": "CONNECTOR_CONFIDENCE_LEVEL",
+    "value": "80 # From 0 (Unknown) to 100 (Fully trusted)"
+  },
+  {
+    "name": "CONNECTOR_LOG_LEVEL",
+    "value": "info"
+  },
+  {
+    "name": "DOMAINTOOLS_API_USERNAME",
+    "value": "ChangeMe"
+  },
+  {
+    "name": "DOMAINTOOLS_API_KEY",
+    "value": "ChangeMe"
+  }
+]
