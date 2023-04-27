@@ -1,0 +1,110 @@
+[
+    {
+        "name": "OPENCTI_URL",
+        "value": "http://localhost"
+    },
+    {
+        "name": "OPENCTI_TOKEN",
+        "value": "ChangeMe"
+    },
+    {
+        "name": "CONNECTOR_ID",
+        "value": "ChangeMe"
+    },
+    {
+        "name": "CONNECTOR_TYPE",
+        "value": "EXTERNAL_IMPORT"
+    },
+    {
+        "name": "CONNECTOR_NAME",
+        "value": "CrowdStrike"
+    },
+    {
+        "name": "CONNECTOR_SCOPE",
+        "value": "crowdstrike"
+    },
+    {
+        "name": "CONNECTOR_CONFIDENCE_LEVEL",
+        "value": "15"
+    },
+    {
+        "name": "CONNECTOR_UPDATE_EXISTING_DATA",
+        "value": "false"
+    },
+    {
+        "name": "CONNECTOR_LOG_LEVEL",
+        "value": "info"
+    },
+    {
+        "name": "CROWDSTRIKE_BASE_URL",
+        "value": "https://api.crowdstrike.com"
+    },
+    {
+        "name": "CROWDSTRIKE_CLIENT_ID",
+        "value": "ChangeMe"
+    },
+    {
+        "name": "CROWDSTRIKE_CLIENT_SECRET",
+        "value": "ChangeMe"
+    },
+    {
+        "name": "CROWDSTRIKE_TLP",
+        "value": "Amber"
+    },
+    {
+        "name": "CROWDSTRIKE_CREATE_OBSERVABLES",
+        "value": "true"
+    },
+    {
+        "name": "CROWDSTRIKE_CREATE_INDICATORS",
+        "value": "true"
+    },
+    {
+        "name": "CROWDSTRIKE_SCOPES",
+        "value": "actor,report,indicator,yara_master"
+    },
+    {
+        "name": "CROWDSTRIKE_ACTOR_START_TIMESTAMP",
+        "value": "0"
+    },
+    {
+        "name": "CROWDSTRIKE_REPORT_START_TIMESTAMP",
+        "value": "0"
+    },
+    {
+        "name": "CROWDSTRIKE_REPORT_STATUS",
+        "value": "New"
+    },
+    {
+        "name": "CROWDSTRIKE_REPORT_INCLUDE_TYPES",
+        "value": "notice,tipper,intelligence report,periodic report"
+    },
+    {
+        "name": "CROWDSTRIKE_REPORT_TYPE",
+        "value": "threat-report"
+    },
+    {
+        "name": "CROWDSTRIKE_REPORT_GUESS_MALWARE",
+        "value": "false"
+    },
+    {
+        "name": "CROWDSTRIKE_INDICATOR_START_TIMESTAMP",
+        "value": "0"
+    },
+    {
+        "name": "CROWDSTRIKE_INDICATOR_EXCLUDE_TYPES",
+        "value": "hash_ion,hash_md5,hash_sha1"
+    },
+    {
+        "name": "CROWDSTRIKE_INDICATOR_LOW_SCORE",
+        "value": "40"
+    },
+    {
+        "name": "CROWDSTRIKE_INDICATOR_LOW_SCORE_LABELS",
+        "value": "MaliciousConfidence/Low"
+    },
+    {
+        "name": "CROWDSTRIKE_INTERVAL_SEC",
+        "value": "1800"
+    }
+]
