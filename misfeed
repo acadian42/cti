@@ -1,0 +1,106 @@
+[
+  {
+    "name": "OPENCTI_URL",
+    "value": "http://localhost"
+  },
+  {
+    "name": "OPENCTI_TOKEN",
+    "value": "ChangeMe"
+  },
+  {
+    "name": "CONNECTOR_ID",
+    "value": "ChangeMe"
+  },
+  {
+    "name": "CONNECTOR_TYPE",
+    "value": "EXTERNAL_IMPORT"
+  },
+  {
+    "name": "CONNECTOR_NAME",
+    "value": "MISP Feed"
+  },
+  {
+    "name": "CONNECTOR_SCOPE",
+    "value": "misp-feed"
+  },
+  {
+    "name": "CONNECTOR_CONFIDENCE_LEVEL",
+    "value": 20
+  },
+  {
+    "name": "CONNECTOR_UPDATE_EXISTING_DATA",
+    "value": false
+  },
+  {
+    "name": "CONNECTOR_RUN_AND_TERMINATE",
+    "value": false
+  },
+  {
+    "name": "CONNECTOR_LOG_LEVEL",
+    "value": "info"
+  },
+  {
+    "name": "MISP_FEED_URL",
+    "value": "https://changeme.com/misp-feed"
+  },
+  {
+    "name": "MISP_FEED_SSL_VERIFY",
+    "value": true
+  },
+  {
+    "name": "MISP_FEED_IMPORT_FROM_DATE",
+    "value": "2000-01-01"
+  },
+  {
+    "name": "MISP_FEED_CREATE_REPORTS",
+    "value": true
+  },
+  {
+    "name": "MISP_FEED_REPORT_TYPE",
+    "value": "misp-event"
+  },
+  {
+    "name": "MISP_FEED_CREATE_INDICATORS",
+    "value": true
+  },
+  {
+    "name": "MISP_FEED_CREATE_OBSERVABLES",
+    "value": true
+  },
+  {
+    "name": "MISP_FEED_CREATE_OBJECT_OBSERVABLES",
+    "value": true
+  },
+  {
+    "name": "MISP_CREATE_TAGS_AS_LABELS",
+    "value": true
+  },
+  {
+    "name": "MISP_GUESS_THREAT_FROM_TAGS",
+    "value": false
+  },
+  {
+    "name": "MISP_AUTHOR_FROM_TAGS",
+    "value": false
+  },
+  {
+    "name": "MISP_FEED_IMPORT_TO_IDS_NO_SCORE",
+    "value": 40
+  },
+  {
+    "name": "MISP_FEED_IMPORT_UNSUPPORTED_OBSERVABLES_AS_TEXT",
+    "value": false
+  },
+  {
+    "name": "MISP_FEED_IMPORT_UNSUPPORTED_OBSERVABLES_AS_TEXT_TRANSPARENT",
+    "value": true
+  },
+  {
+    "name": "MISP_FEED_IMPORT_WITH_ATTACHMENTS",
+    "value": false
+  },
+  {
+    "name": "MISP_FEED_INTERVAL",
+    "value": 5
+  }
+]
