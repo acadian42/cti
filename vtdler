@@ -1,0 +1,42 @@
+[
+  {
+    "name": "OPENCTI_URL",
+    "value": "ChangeMe"
+  },
+  {
+    "name": "OPENCTI_TOKEN",
+    "value": "ChangeMe"
+  },
+  {
+    "name": "CONNECTOR_ID",
+    "value": "ChangeMe"
+  },
+  {
+    "name": "CONNECTOR_TYPE",
+    "value": "INTERNAL_ENRICHMENT"
+  },
+  {
+    "name": "CONNECTOR_NAME",
+    "value": "VirusTotal Downloader"
+  },
+  {
+    "name": "CONNECTOR_SCOPE",
+    "value": "StixFile"
+  },
+  {
+    "name": "CONNECTOR_AUTO",
+    "value": "true"
+  },
+  {
+    "name": "CONNECTOR_CONFIDENCE_LEVEL",
+    "value": "100"
+  },
+  {
+    "name": "CONNECTOR_LOG_LEVEL",
+    "value": "info"
+  },
+  {
+    "name": "VIRUSTOTAL_DOWNLOADER_API_KEY",
+    "value": "ChangeMe"
+  }
+]
