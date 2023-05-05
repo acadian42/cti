@@ -1,0 +1,50 @@
+[
+  {
+    "name": "OpenCTI URL",
+    "value": "http://opencti:8080"
+  },
+  {
+    "name": "OpenCTI token",
+    "value": "${OPENCTI_ADMIN_TOKEN}"
+  },
+  {
+    "name": "Connector ID",
+    "value": "${CONNECTOR_VXVAULT_ID}"
+  },
+  {
+    "name": "Connector type",
+    "value": "EXTERNAL_IMPORT"
+  },
+  {
+    "name": "Connector name",
+    "value": "VX Vault URL list"
+  },
+  {
+    "name": "Connector scope",
+    "value": "vxvault"
+  },
+  {
+    "name": "Connector confidence level",
+    "value": 40
+  },
+  {
+    "name": "Connector update existing data",
+    "value": false
+  },
+  {
+    "name": "Connector log level",
+    "value": "info"
+  },
+  {
+    "name": "VX Vault URL",
+    "value": "http://vxvault.net/URL_List.php"
+  },
+  {
+    "name": "VX Vault create indicators",
+    "value": true
+  },
+  {
+    "name": "VX Vault interval",
+    "value": 3
+  }
+]
