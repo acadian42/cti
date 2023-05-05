@@ -1,15 +1,15 @@
 [
   {
     "name": "OPENCTI_URL",
-    "value": "http://localhost"
+    "value": "http://opencti:8080"
   },
   {
     "name": "OPENCTI_TOKEN",
-    "value": "ChangeMe"
+    "value": "${OPENCTI_ADMIN_TOKEN}"
   },
   {
     "name": "CONNECTOR_ID",
-    "value": "ChangeMe"
+    "value": "${CONNECTOR_MISP_FEED_BOTVRIJ_ID}"
   },
   {
     "name": "CONNECTOR_TYPE",
@@ -17,18 +17,22 @@
   },
   {
     "name": "CONNECTOR_NAME",
-    "value": "MISP"
+    "value": "MISP Feed (botvrij)"
   },
   {
     "name": "CONNECTOR_SCOPE",
-    "value": "misp"
+    "value": "misp-feed"
   },
   {
     "name": "CONNECTOR_CONFIDENCE_LEVEL",
-    "value": "25"
+    "value": "20"
   },
   {
     "name": "CONNECTOR_UPDATE_EXISTING_DATA",
+    "value": "false"
+  },
+  {
+    "name": "CONNECTOR_RUN_AND_TERMINATE",
     "value": "false"
   },
   {
@@ -36,100 +40,51 @@
     "value": "info"
   },
   {
-    "name": "MISP_URL",
-    "value": "http://localhost"
+    "name": "MISP_FEED_URL",
+    "value": "https://www.botvrij.eu/data/feed-osint/"
   },
   {
-    "name": "MISP_REFERENCE_URL",
-    "value": ""
-  },
-  {
-    "name": "MISP_KEY",
-    "value": "ChangeMe"
-  },
-  {
-    "name": "MISP_SSL_VERIFY",
-    "value": "false"
-  },
-  {
-    "name": "MISP_DATETIME_ATTRIBUTE",
-    "value": "timestamp"
-  },
-  {
-    "name": "MISP_REPORT_DESCRIPTION_ATTRIBUTE_FILTER",
-    "value": ""
-  },
-  {
-    "name": "MISP_CREATE_REPORTS",
+    "name": "MISP_FEED_SSL_VERIFY",
     "value": "true"
   },
   {
-    "name": "MISP_CREATE_INDICATORS",
-    "value": "true"
-  },
-  {
-    "name": "MISP_CREATE_OBSERVABLES",
-    "value": "true"
-  },
-  {
-    "name": "MISP_CREATE_OBJECT_OBSERVABLES",
-    "value": "true"
-  },
-  {
-    "name": "MISP_CREATE_TAGS_AS_LABELS",
-    "value": "true"
-  },
-  {
-    "name": "MISP_GUESS_THREAT_FROM_TAGS",
-    "value": "false"
-  },
-  {
-    "name": "MISP_AUTHOR_FROM_TAGS",
-    "value": "false"
-  },
-  {
-    "name": "MISP_MARKINGS_FROM_TAGS",
-    "value": "false"
-  },
-  {
-    "name": "MISP_ENFORCE_WARNING_LIST",
-    "value": "false"
-  },
-  {
-    "name": "MISP_REPORT_TYPE",
-    "value": "misp-event"
-  },
-  {
-    "name": "MISP_IMPORT_FROM_DATE",
+    "name": "MISP_FEED_IMPORT_FROM_DATE",
     "value": "2000-01-01"
   },
   {
-    "name": "MISP_IMPORT_TAGS",
-    "value": "opencti:import,type:osint"
+    "name": "MISP_FEED_CREATE_REPORTS",
+    "value": "true"
   },
   {
-    "name": "MISP_IMPORT_TAGS_NOT",
-    "value": ""
+    "name": "MISP_FEED_REPORT_TYPE",
+    "value": "misp-event"
   },
   {
-    "name": "MISP_IMPORT_CREATOR_ORGS",
-    "value": ""
+    "name": "MISP_FEED_CREATE_INDICATORS",
+    "value": "true"
   },
   {
-    "name": "MISP_IMPORT_CREATOR_ORGS_NOT",
-    "value": ""
+    "name": "MISP_FEED_CREATE_OBSERVABLES",
+    "value": "true"
   },
   {
-    "name": "MISP_IMPORT_OWNER_ORGS",
-    "value": ""
+    "name": "MISP_FEED_CREATE_OBJECT_OBSERVABLES",
+    "value": "true"
   },
   {
-    "name": "MISP_IMPORT_OWNER_ORGS_NOT",
-    "value": ""
+    "name": "MISP_FEED_IMPORT_TO_IDS_NO_SCORE",
+    "value": "40"
   },
   {
-    "name": "MISP_IMPORT_KEYWORD",
-    "value": ""
+    "name": "MISP_FEED_IMPORT_UNSUPPORTED_OBSERVABLES_AS_TEXT",
+    "value": "false"
   },
   {
-    "name": "MISP_IMPORT_DISTRIBUTION_LEVEL
+    "name": "MISP_FEED_IMPORT_WITH_ATTACHMENTS",
+    "value": "yes"
+  },
+  {
+    "name": "MISP_FEED_INTERVAL",
+    "value": "60"
+  }
+]
