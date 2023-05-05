@@ -1,0 +1,38 @@
+[
+  {
+    "name": "OPENCTI_URL",
+    "value": "http://opencti:8080"
+  },
+  {
+    "name": "OPENCTI_TOKEN",
+    "value": "${OPENCTI_ADMIN_TOKEN}"
+  },
+  {
+    "name": "CONNECTOR_ID",
+    "value": "${CONNECTOR_CRYPTOLAEMUS_ID}"
+  },
+  {
+    "name": "CONNECTOR_TYPE",
+    "value": "EXTERNAL_IMPORT"
+  },
+  {
+    "name": "CONNECTOR_NAME",
+    "value": "Cryptolaemus"
+  },
+  {
+    "name": "CONNECTOR_SCOPE",
+    "value": "cryptolaemus"
+  },
+  {
+    "name": "CONNECTOR_CONFIDENCE_LEVEL",
+    "value": 15
+  },
+  {
+    "name": "CONNECTOR_UPDATE_EXISTING_DATA",
+    "value": false
+  },
+  {
+    "name": "CONNECTOR_LOG_LEVEL",
+    "value": "info"
+  }
+]
