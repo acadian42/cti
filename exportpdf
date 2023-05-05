@@ -1,0 +1,74 @@
+[
+  {
+    "name": "OpenCTI URL",
+    "value": "http://opencti:8080"
+  },
+  {
+    "name": "OpenCTI token",
+    "value": "${OPENCTI_ADMIN_TOKEN}"
+  },
+  {
+    "name": "Connector ID",
+    "value": "${CONNECTOR_EXPORT_PDF_ID}"
+  },
+  {
+    "name": "Connector type",
+    "value": "INTERNAL_EXPORT_FILE"
+  },
+  {
+    "name": "Connector name",
+    "value": "Export PDF Report"
+  },
+  {
+    "name": "Connector scope",
+    "value": "application/pdf"
+  },
+  {
+    "name": "Connector confidence level",
+    "value": 100
+  },
+  {
+    "name": "Connector log level",
+    "value": "info"
+  },
+  {
+    "name": "Export report PDF primary color",
+    "value": "#ff8c00"
+  },
+  {
+    "name": "Export report PDF secondary color",
+    "value": "#000000"
+  },
+  {
+    "name": "Export report PDF company address line 1",
+    "value": "${EXPORT_PDF_ADDRESS1}"
+  },
+  {
+    "name": "Export report PDF company address line 2",
+    "value": "${EXPORT_PDF_ADDRESS2}"
+  },
+  {
+    "name": "Export report PDF company address line 3",
+    "value": "${EXPORT_PDF_ADDRESS3}"
+  },
+  {
+    "name": "Export report PDF company phone number",
+    "value": "${EXPORT_PDF_PHONE}"
+  },
+  {
+    "name": "Export report PDF company email",
+    "value": "${EXPORT_PDF_EMAIL}"
+  },
+  {
+    "name": "Export report PDF company website",
+    "value": "${EXPORT_PDF_URL}"
+  },
+  {
+    "name": "Export report PDF indicators only",
+    "value": false
+  },
+  {
+    "name": "Export report PDF defang URLs",
+    "value": false
+  }
+]
