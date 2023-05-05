@@ -1,0 +1,46 @@
+[
+  {
+    "name": "OpenCTI URL",
+    "value": "http://opencti:8080"
+  },
+  {
+    "name": "OpenCTI token",
+    "value": "${OPENCTI_ADMIN_TOKEN}"
+  },
+  {
+    "name": "Connector ID",
+    "value": "${CONNECTOR_HYGIENE_ID}"
+  },
+  {
+    "name": "Connector type",
+    "value": "INTERNAL_ENRICHMENT"
+  },
+  {
+    "name": "Connector name",
+    "value": "Hygiene"
+  },
+  {
+    "name": "Connector scope",
+    "value": "IPv4-Addr,IPv6-Addr,Domain-Name,StixFile,Artifact"
+  },
+  {
+    "name": "Connector auto",
+    "value": true
+  },
+  {
+    "name": "Connector confidence level",
+    "value": 15
+  },
+  {
+    "name": "Connector log level",
+    "value": "info"
+  },
+  {
+    "name": "Hygiene warninglists slow search",
+    "value": false
+  },
+  {
+    "name": "Hygiene enrich subdomains",
+    "value": false
+  }
+]
