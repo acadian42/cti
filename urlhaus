@@ -1,0 +1,58 @@
+[
+    {
+        "name": "OPENCTI_URL",
+        "value": "http://opencti:8080"
+    },
+    {
+        "name": "OPENCTI_TOKEN",
+        "value": "${OPENCTI_ADMIN_TOKEN}"
+    },
+    {
+        "name": "CONNECTOR_ID",
+        "value": "${CONNECTOR_URLHAUS_ID}"
+    },
+    {
+        "name": "CONNECTOR_TYPE",
+        "value": "EXTERNAL_IMPORT"
+    },
+    {
+        "name": "CONNECTOR_NAME",
+        "value": "Abuse.ch URLhaus"
+    },
+    {
+        "name": "CONNECTOR_SCOPE",
+        "value": "urlhaus"
+    },
+    {
+        "name": "CONNECTOR_CONFIDENCE_LEVEL",
+        "value": 40
+    },
+    {
+        "name": "CONNECTOR_UPDATE_EXISTING_DATA",
+        "value": false
+    },
+    {
+        "name": "CONNECTOR_LOG_LEVEL",
+        "value": "info"
+    },
+    {
+        "name": "URLHAUS_CSV_URL",
+        "value": "https://urlhaus.abuse.ch/downloads/csv_recent/"
+    },
+    {
+        "name": "URLHAUS_IMPORT_OFFLINE",
+        "value": true
+    },
+    {
+        "name": "URLHAUS_CREATE_INDICATORS",
+        "value": true
+    },
+    {
+        "name": "URLHAUS_THREATS_FROM_LABELS",
+        "value": true
+    },
+    {
+        "name": "URLHAUS_INTERVAL",
+        "value": 3
+    }
+]
