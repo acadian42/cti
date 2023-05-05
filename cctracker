@@ -1,0 +1,58 @@
+[
+  {
+    "name": "OPENCTI_URL",
+    "value": "http://opencti:8080"
+  },
+  {
+    "name": "OPENCTI_TOKEN",
+    "value": "${OPENCTI_ADMIN_TOKEN}"
+  },
+  {
+    "name": "CONNECTOR_ID",
+    "value": "${CONNECTOR_CCTRACKER_ID}"
+  },
+  {
+    "name": "CONNECTOR_TYPE",
+    "value": "EXTERNAL_IMPORT"
+  },
+  {
+    "name": "CONNECTOR_NAME",
+    "value": "Cybercrime-Tracker"
+  },
+  {
+    "name": "CONNECTOR_SCOPE",
+    "value": "cybercrime-tracker"
+  },
+  {
+    "name": "CONNECTOR_CONFIDENCE_LEVEL",
+    "value": "15"
+  },
+  {
+    "name": "CONNECTOR_UPDATE_EXISTING_DATA",
+    "value": "false"
+  },
+  {
+    "name": "CONNECTOR_LOG_LEVEL",
+    "value": "info"
+  },
+  {
+    "name": "CYBERCRIME_TRACKER_FEED_URL",
+    "value": "http://cybercrime-tracker.net/rss.xml"
+  },
+  {
+    "name": "CYBERCRIME_TRACKER_TLP",
+    "value": "CLEAR"
+  },
+  {
+    "name": "CYBERCRIME_TRACKER_INTERVAL",
+    "value": "86400"
+  },
+  {
+    "name": "CYBERCRIME_TRACKER_CREATE_INDICATORS",
+    "value": "true"
+  },
+  {
+    "name": "CYBERCRIME_TRACKER_CREATE_OBSERVABLES",
+    "value": "true"
+  }
+]
