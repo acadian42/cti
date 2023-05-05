@@ -1,0 +1,62 @@
+[
+  {
+    "name": "OPENCTI_URL",
+    "value": "http://opencti:8080"
+  },
+  {
+    "name": "OPENCTI_TOKEN",
+    "value": "${OPENCTI_ADMIN_TOKEN}"
+  },
+  {
+    "name": "CONNECTOR_ID",
+    "value": "${CONNECTOR_MALPEDIA_ID}"
+  },
+  {
+    "name": "CONNECTOR_TYPE",
+    "value": "EXTERNAL_IMPORT"
+  },
+  {
+    "name": "CONNECTOR_NAME",
+    "value": "Malpedia"
+  },
+  {
+    "name": "CONNECTOR_SCOPE",
+    "value": "malpedia"
+  },
+  {
+    "name": "CONNECTOR_CONFIDENCE_LEVEL",
+    "value": 30
+  },
+  {
+    "name": "CONNECTOR_UPDATE_EXISTING_DATA",
+    "value": false
+  },
+  {
+    "name": "CONNECTOR_LOG_LEVEL",
+    "value": "info"
+  },
+  {
+    "name": "MALPEDIA_AUTH_KEY",
+    "value": ""
+  },
+  {
+    "name": "MALPEDIA_INTERVAL_SEC",
+    "value": 86400
+  },
+  {
+    "name": "MALPEDIA_IMPORT_INTRUSION_SETS",
+    "value": true
+  },
+  {
+    "name": "MALPEDIA_IMPORT_YARA",
+    "value": true
+  },
+  {
+    "name": "MALPEDIA_CREATE_INDICATORS",
+    "value": true
+  },
+  {
+    "name": "MALPEDIA_CREATE_OBSERVABLES",
+    "value": true
+  }
+]
