@@ -1,0 +1,78 @@
+[
+    {
+      "name" : "OPENCTI_URL",
+      "value" : "http://opencti:8080"
+    },
+    {
+      "name" : "OPENCTI_TOKEN",
+      "value" : "CHANGME"
+    },
+    {
+      "name" : "CONNECTOR_ID",
+      "value" : "CHANGEME"
+    },
+    {
+      "name" : "CONNECTOR_TYPE",
+      "value" : "EXTERNAL_IMPORT"
+    },
+    {
+      "name" : "CONNECTOR_NAME",
+      "value" : "Intel471"
+    },
+    {
+      "name" : "CONNECTOR_SCOPE",
+      "value" : "malware,vulnerability,indicator"
+    },
+    {
+      "name" : "CONNECTOR_CONFIDENCE_LEVEL",
+      "value" : "70"
+    },
+    {
+      "name" : "CONNECTOR_UPDATE_EXISTING_DATA",
+      "value" : "false"
+    },
+    {
+      "name" : "CONNECTOR_LOG_LEVEL",
+      "value" : "info"
+    },
+    {
+      "name" : "INTEL471_API_USERNAME",
+      "value" : "CHANGEME"
+    },
+    {
+      "name" : "INTEL471_API_KEY",
+      "value" : "CHANGEME"
+    },
+    {
+      "name" : "INTEL471_INTERVAL_INDICATORS",
+      "value" : "60"
+    },
+    {
+      "name" : "INTEL471_INITIAL_HISTORY_INDICATORS",
+      "value" : "0"
+    },
+    {
+      "name" : "INTEL471_INTERVAL_YARA",
+      "value" : "60"
+    },
+    {
+      "name" : "INTEL471_INITIAL_HISTORY_YARA",
+      "value" : "0"
+    },
+    {
+      "name" : "INTEL471_INTERVAL_CVES",
+      "value" : "120"
+    },
+    {
+      "name" : "INTEL471_INITIAL_HISTORY_CVES",
+      "value" : "0"
+    },
+    {
+      "name" : "INTEL471_INTERVAL_IOCS",
+      "value" : "120"
+    },
+    {
+      "name" : "INTEL471_INITIAL_HISTORY_IOCS",
+      "value" : "0"
+    }
+]
